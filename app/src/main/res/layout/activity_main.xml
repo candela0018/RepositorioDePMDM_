@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="438dp"
+            android:layout_height="60dp"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:title="Reproductor de música" />
+
+        <TextView
+            android:id="@+id/tvTituloCancion"
+            android:layout_width="wrap_content"
+            android:layout_height="103dp"
+            android:gravity="center|right"
+            android:text="TextView"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnPause"
+            android:layout_width="134dp"
+            android:layout_height="98dp"
+            android:layout_gravity="bottom|right"
+            android:text="Pause" />
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="163dp"
+            android:layout_height="91dp"
+            android:layout_gravity="bottom|left"
+            android:text="Play" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="297dp"
+            android:layout_height="71dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/tvTiempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tvDuracion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btnSonido1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disparo con un rifle" />
+
+        <Button
+            android:id="@+id/btnSonido2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disparo a un objetivo en el entrenamiento" />
+
+        <Button
+            android:id="@+id/btnSonido3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="golpe aplastante con un sable" />
+
+        <Button
+            android:id="@+id/btnSonido4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Golpe magistral con la espada" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
