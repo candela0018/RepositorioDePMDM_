@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         int sonido1 = soundPool.load(this, R.raw.disparar_con_una_mira_optica_en_un_rifle, 1);
         btnSonido1 = findViewById(R.id.btnSonido1);
 
-        btnSonido1.setOnClickListener(v -> {
+        btnSonido1.setOnClickListener(v -> { //Para que suene el sonido corto asignado al clickear en el boton
 
             soundPool.play(sonido1, 1, 1, 1, 0, 1);
 
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         btnSonido2 = findViewById(R.id.btnSonido2);
 
 
-        btnSonido2.setOnClickListener(v -> {
+        btnSonido2.setOnClickListener(v -> { //Para que suene el sonido corto asignado al clickear en el boton
 
             soundPool.play(sonido2, 1, 1, 1, 0, 1);
 
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         btnSonido3 = findViewById(R.id.btnSonido3);
 
 
-        btnSonido3.setOnClickListener(v -> {
+        btnSonido3.setOnClickListener(v -> { //Para que suene el sonido corto asignado al clickear en el boton
 
             soundPool.play(sonido3, 1, 1, 1, 0, 1);
 
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         btnSonido4 = findViewById(R.id.btnSonido4);
 
 
-        btnSonido4.setOnClickListener(v -> {
+        btnSonido4.setOnClickListener(v -> { //Para que suene el sonido corto asignado al clickear en el boton
 
             soundPool.play(sonido4, 1, 1, 1, 0, 1);
 
